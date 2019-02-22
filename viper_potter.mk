@@ -42,3 +42,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # for specific
 $(call inherit-product, vendor/motorola/potter/potter-vendor.mk)
+
+# Poisoned By
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.viper.maintainer=ImTester

@@ -46,4 +46,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # for specific
 $(call inherit-product, vendor/motorola/potter/potter-vendor.mk)
 
-
+VIPER_BUILD_TYPE := OFFICIAL
